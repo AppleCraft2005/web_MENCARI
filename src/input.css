@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .screen-size {
+        @apply max-w-md lg:max-w-3xl xl:max-w-6xl sm:max-w-xl md:max-w-2xl 
+    }
+}
