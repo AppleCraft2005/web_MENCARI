@@ -6,4 +6,10 @@
     .screen-size {
         @apply max-w-md lg:max-w-3xl xl:max-w-6xl sm:max-w-xl md:max-w-2xl 
     }
+    .ChatBubble-user{
+        @apply border shadow-lg p-1 pr-3 bg-slate-200 w-auto mb-2 rounded-lg text-right 
+    }
+    .ChatBubble-AI{
+        @apply border shadow-lg p-1 pl-3 bg-calmGreen w-auto mb-2 rounded-lg text-left 
+    }
 }
