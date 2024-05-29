@@ -13,7 +13,7 @@ function sendMessage() {
 }
 
 function fetchResponse(message) {
-    const apiKey = 'sk-proj-TFPC8zvJtUn02tbo1yeoT3BlbkFJBCBvQ8ZtMeotvHHq5xym';
+    const apiKey = 'sk-proj-IWtzTDVN8lCEdLkXCiHvT3BlbkFJpRPzqeQlcfaFOewmSDDZ';
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
     return fetch(apiUrl, {
