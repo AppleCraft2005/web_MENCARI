@@ -12,4 +12,6 @@
     .ChatBubble-AI{
         @apply border shadow-lg p-1 pl-3 bg-calmGreen w-auto mb-2 rounded-lg text-left 
     }
+
+
 }
